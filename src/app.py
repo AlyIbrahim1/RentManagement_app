@@ -9,7 +9,7 @@ root.geometry("1000x650")
 frame = customtkinter.CTkFrame(master=root)
 frame.pack(pady=20, padx=20, fill="both", expand=True)
 
-label = customtkinter.CTkLabel(master=frame, text="Rent Managemennt System", font=("Roboto", 24))
+label = customtkinter.CTkLabel(master=frame, text="Rent Management System", font=("Roboto", 24))
 label.pack(pady=20, padx=10)
 
 root.mainloop()
