@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect("data/rent_management.db") # connects to database file
+conn = sqlite3.connect("data/rent_data.db") # connects to database file
 cursor = conn.cursor() # creates a cursor
 
 # creates the database table
