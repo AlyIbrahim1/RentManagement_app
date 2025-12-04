@@ -18,7 +18,7 @@ RentManager is a desktop application designed to help property managers track te
     pip install reportlab
     ```
 3.  **Run the Application:**
-    Navigate to the `src` directory and run:
+    Navigate to the root directory and run:
     ```bash
     python main.py
     ```
