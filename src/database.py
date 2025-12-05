@@ -16,7 +16,7 @@ cursor.execute("""CREATE TABLE IF NOT EXISTS renters (
 conn.commit()
 
 def addRecord(appartmentNumber, name, rentAmount, lastMonthPayed, unpaidMonths, rentDue):
-    cursor.execute("""INSERT INTO renters VALUES (?,?,?,?,?);"""
+    cursor.execute("""INSERT INTO renters VALUES (?,?,?,?,?,?);"""
         , (appartmentNumber, name, rentAmount, lastMonthPayed, unpaidMonths, rentDue)
     )
     conn.comit()
@@ -27,7 +27,5 @@ def deleteRecord(appartmentNumber):
     )
 
 def clearTable():
-    cursor.execute("""--sql DROP TABLE renters;""")
-    conn.commit()
-
-conn.close()
+    cursor.execute(""" DROP TABLE renters;""")
+    conn.commmit()
