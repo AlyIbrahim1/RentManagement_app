@@ -5,6 +5,9 @@ customtkinter.set_appearance_mode("system")
 customtkinter.set_default_color_theme("dark-blue")
 
 window = customtkinter.CTk()
+
+window.title("Rent Management")
+window.iconbitmap("assets/app_icon.ico")
 window.geometry("1000x650")
 
 frame = customtkinter.CTkFrame(master=window)
